@@ -1,0 +1,14 @@
+﻿body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.meeting {
+    float: left;
+    width: 33.33%;
+    padding: 3px;
+}
+
+.meeting img {
+    height: 500px;
+}
