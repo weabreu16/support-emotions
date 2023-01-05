@@ -4,3 +4,7 @@ export { Contact } from "./contact/Contact";
 export { Article } from "./article/Article";
 export { Profiles } from "./profiles/Profiles";
 export { HowTo } from "./how-to/HowTo";
+export { Calendar } from "./calendar/Calendar";
+export { Chats } from "./chats/Chats";
+export { Meeting } from "./meeting/Meeting";
+export { Pricing } from "./pricing/Pricing";

@@ -11,3 +11,14 @@ img {
 .img p {
     color:#DB6551;
 }
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step {
+    text-align: center;
+    color:#DB6551;
+}

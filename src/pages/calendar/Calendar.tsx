@@ -1,6 +1,10 @@
 import React from 'react'
 import { Container } from 'react-bootstrap';
 import "./CalendarStyles.css";
+import DashboardForChats from "../../Images/DashboardForChats.png";
+import CalendarEmotions from "../../Images/CalendarEmotions.png";
+import CalendarEventEmotions from "../../Images/CalendarEventEmotions.png";
+import CalendarDetailsEmotions from "../../Images/CalendarDetailsEmotions.png";
 
 export  const Calendar = () => {
   return (
@@ -15,11 +19,10 @@ export  const Calendar = () => {
         as we can see in the following attached image...
         </p>
 
-        <div style={{ alignItems: 'center', justifyContent: 'center'}} className="img">
-            <img src="~/Images/DashboardForChats.png" />
-
-            <p>Step 1</p>
+        <div className="img">
+            <img src={DashboardForChats} />
         </div>
+        <p className="step">Step 1</p>
 
         <p>
             When we are on the "Calendar" screen we can see that we have a calendar of the year in which
@@ -28,11 +31,10 @@ export  const Calendar = () => {
             chronological order to the closest. See attached image to see how the screen is displayed.
         </p>
 
-        <div style={{ alignItems: 'center', justifyContent: 'center'}} className="img">
-            <img src="~/Images/CalendarEmotions.png" />
-
-            <p>Step 2</p>
+        <div className="img">
+            <img src={CalendarEmotions} />
         </div>
+        <p className="step">Step 2</p>
 
         <p>
             In the image of the "Step 3" we can see how the screen would be displayed when a new event is being
@@ -41,10 +43,10 @@ export  const Calendar = () => {
             it to be repeated from time to time.
         </p>
 
-        <div style={{ alignItems: 'center', justifyContent: 'center'}} className="img">
-            <img src="~/Images/CalendarEventEmotions.png" />
-            <p>Step 3</p>
+        <div className="img">
+            <img src={CalendarEventEmotions} />
         </div>
+        <p className="step">Step 3</p>
 
         <p>
             Finally we have the details screen about the meeting scheduled in the calendar,
@@ -54,11 +56,10 @@ export  const Calendar = () => {
             also join said meeting through this same screen in case it is time for the meeting.
         </p>
 
-        <div style={{ alignItems: 'center', justifyContent: 'center'}} className="img">
-            <img src="~/Images/CalendarDetailsEmotions.png" />
-
-            <p>Step 4</p>
+        <div className="img">
+            <img src={CalendarDetailsEmotions} />
         </div>
+        <p className="step">Step 4</p>
 
         <p>
             By being on the calendar screen we can be aware of all the meetings that we have

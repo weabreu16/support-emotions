@@ -57,6 +57,7 @@ export const Home = () => {
                                     <li><Link to="/calendar">Calendar</Link></li>
                                     <li><Link to="/article">Articles</Link></li>
                                     <li><Link to="/how-to">How to install</Link></li>
+                                    <li><Link to="/pricing">Pricing</Link></li>
                                 </ul>
                             </div>
                         </div>

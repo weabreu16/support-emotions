@@ -2,3 +2,8 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
+
+h3 {
+    color: #DB6551;
+    margin-top: 10px;
+}

@@ -1,6 +1,9 @@
 import React from 'react'
 import { Container } from 'react-bootstrap';
 import "./InfoStyles.css";
+import DashboardForChats from "../../Images/DashboardForChats.png";
+import Mensajes from "../../Images/Mensajes.png";
+import ChatEmotions from "../../Images/ChatEmotions.png";
 
 export  const Chats = () => {
   return (
@@ -14,10 +17,10 @@ export  const Chats = () => {
             with psychologists we must open the application dashboard, see attached image.
         </p>
 
-        <div style={{ alignItems: 'center', justifyContent: 'center'}} className="img">
-            <img src="~/Images/DashboardForChats.png" />
-            <p>Step 1</p>
+        <div className="img">
+            <img src={DashboardForChats} />
         </div>
+        <p className="step">Step 1</p>
 
         <p>
             In the Dashboard image we can see each of the options that can be chosen,
@@ -25,10 +28,10 @@ export  const Chats = () => {
             option we will access the screen that we will see in the following image.
         </p>
 
-        <div style={{ alignItems: 'center', justifyContent: 'center'}} className="img">
-            <img src="~/Images/Mensajes.png" />
-            <p>Step 2</p>
+        <div className="img">
+            <img src={Mensajes} />
         </div>
+        <p className="step">Step 2</p>
 
         <p>
             After entering the "Messages" screen, we can see who is available and here we
@@ -37,11 +40,10 @@ export  const Chats = () => {
             this button we would be on the chat screen which we can see in the attached image.
         </p>
 
-        <div style={{ alignItems: 'center', justifyContent: 'center'}} className="img">
-            <img src="~/Images/ChatEmotions.png" />
-
-            <p>Step 3</p>
+        <div className="img">
+            <img src={ChatEmotions} />
         </div>
+        <p className="step">Step 3</p>
 
         <p>
             Being on the chat screen of the psychologist with whom we want to talk,

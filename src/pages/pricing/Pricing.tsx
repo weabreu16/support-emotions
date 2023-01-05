@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container } from 'react-bootstrap';
 import "./PricingStyles.css";
+import Planes from "../../Images/Planes.png";
 
 export  const Pricing = () => {
   return (
@@ -10,14 +11,12 @@ export  const Pricing = () => {
         <p>
         In the "Pricing" section, We can see how the payment plans of the 
         application are categorized, in which we have the Bronze Plan, 
-        Gold Plan and the Platinium Plan
+        Gold Plan and the Platinium Plan.
         </p>
 
-        <div style={{ alignItems: 'center', justifyContent: 'center'}}>
-            <img src="~/Images/Planes.png" />
-        </div>
+        <img src={Planes} style={{width: "100%"}} />
 
-        <h2>Plans Descriptions</h2>
+        <h2 className="mt-4">Plans Descriptions</h2>
 
         <h3 color='#DB6551'>Bronze plan</h3>
 
@@ -25,7 +24,7 @@ export  const Pricing = () => {
         
         <li>Technical Support (only by mail).</li>
         <li>Maintenance.</li>
-        <li>User Training..</li>
+        <li>User Training.</li>
 
         <h3 color='#DB6551'>Gold plan</h3>
 
@@ -37,7 +36,7 @@ export  const Pricing = () => {
         <li>Configuration Guide.</li>
         <li>Installation of the System in the Infrastructure.</li>
 
-        <h3 color='#DB6551'>Platinum Plan plan</h3>
+        <h3>Platinum plan</h3>
 
         <p>The price of this plan consists of US$1,000 per month and includes:</p>
         

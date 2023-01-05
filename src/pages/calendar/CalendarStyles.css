@@ -8,6 +8,17 @@ img {
     height: 515px;
 }
 
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step {
+    text-align: center;
+    color:#DB6551;
+}
+
 .img p {
     color:#DB6551;
 }
