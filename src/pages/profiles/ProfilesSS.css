@@ -1,0 +1,17 @@
+﻿.body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.pro {
+    float: left;
+    width: 33.33%;
+    padding: 3px;
+    text-align: center;
+}
+
+.pro {
+     height: 700px;
+}
+
+
