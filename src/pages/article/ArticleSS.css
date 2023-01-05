@@ -7,8 +7,13 @@
     float:left;
     width: 33.33%;
     padding: 3px;
+    text-align: center;
 }
 
 .article1 img {
     height: 700px;
+}
+
+li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
