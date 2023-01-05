@@ -1,12 +1,12 @@
 import { AppNavBar } from './components/app-navbar';
-import { About, Article, Contact, Home, Profiles } from './pages';
+import { About, Article, Contact, Home, HowTo, Profiles } from './pages';
 
 function App() {
 
   return (
     <>
         <AppNavBar />
-        <Profiles />
+        <HowTo />
     </>
   )
 }
