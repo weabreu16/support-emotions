@@ -6,7 +6,7 @@ import Landing_Page from "../../Images/Landing Page.png";
 
 export const HowTo = () => {
   return (
-    <Container className="mt-2" style={{fontFamily: "'Times New Roman', Times, serif"}}>
+    <Container className="mt-3" style={{fontFamily: "'Times New Roman', Times, serif"}}>
         <h1>How to install Emotions</h1>
         <p className="fs-5 mb-4">In this section we will explain the requirements you need to be able to install and use our application effectively.</p>
 

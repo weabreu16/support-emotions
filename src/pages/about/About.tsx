@@ -4,7 +4,7 @@ import './AboutUsStyles.css';
 
 export const About = () => {
   return (
-    <Container className="mt-2">
+    <Container className="mt-3">
         <h1>About Us</h1>
 
         <p>We are a team of developers made up of:</p>

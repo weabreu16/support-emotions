@@ -6,7 +6,7 @@ import Articulo_2 from "../../Images/Articulo_2.png";
 
 export const Article = () => {
   return (
-    <Container className="mt-2" style={{fontFamily: "'Times New Roman', Times, serif"}}>
+    <Container className="mt-3" style={{fontFamily: "'Times New Roman', Times, serif"}}>
         <h1>Articles</h1>
         <p className="fs-5 mb-4">In this section we can find the articles published by our experts, with this segment we seek that our specialists feel free to be able to publish their opinions about the topics that are worked on in the area of health and psychology.</p>
 

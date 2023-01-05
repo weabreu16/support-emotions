@@ -10,11 +10,10 @@ import Dashboard_Menu from "../../Images/Dashboard_Menu.png";
 
 export const Profiles = () => {
   return (
-    <Container className="mt-2" style={{fontFamily: "'Times New Roman', Times, serif"}}>
+    <Container className="mt-3" style={{fontFamily: "'Times New Roman', Times, serif"}}>
         <h2>Profiles</h2>
 
         <p className="fs-5 mb-4">In this section we will see how specialists/patients can create their accounts to be able to use our application, we will also be able to see how the interface of our application looks when the user who logs in is a specialist or user.</p>
-
 
         <div className="row">
             <div className="pro">

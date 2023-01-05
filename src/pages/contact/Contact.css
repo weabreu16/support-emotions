@@ -1,0 +1,49 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css";
+ 
+
+.social {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 50px;
+    float: left;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.social:hover {
+    width: 200px;
+}
+
+.social span {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+}
+
+.social .icon {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.social .icon i {
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-in-out;
+}
+
+.social:nth-child(1):hover .icon { background-color: rgb(255, 41, 41); }
+.social:nth-child(2):hover .icon { background-color: #e1306c; }
+.social:nth-child(3):hover .icon { background-color: #000; }
+
+.social:nth-child(1):hover span { color: rgb(255, 41, 41); }
+.social:nth-child(2):hover span { color: #e1306c; }
+
+.social:hover .icon i { color: #fff; }
